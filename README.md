@@ -14,8 +14,8 @@ Objetivo Principal: Apresentar o JavaScript como a camada de comportamento da We
 
 Estrutura de Arquivos:
 
-README.md        #Este arquivo de documentação do repositório <br>
-plano_de_aula.md # Guia/Diretrizes completas para o professor substituto <br>
-index.html       # Estrutura do projeto "Mood Tracker" (Desafio Prático) <br>
-style.css        # Estilização completa do layout e animações <br>
-script.js        # Lógica JavaScript (manipulação de DOM e funções) <br>
+README.md               # Este arquivo de documentação do repositório <br>
+plano_de_aula.md        # Guia/Diretrizes completas para o professor substituto <br>
+index.html              # Estrutura do projeto "Mood Tracker" (Desafio Prático) <br>
+style.css               # Estilização completa do layout e animações <br>
+script.js               # Lógica JavaScript (manipulação de DOM e funções) <br>
