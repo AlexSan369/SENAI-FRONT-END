@@ -12,7 +12,7 @@ Prerequisitos da Turma: Conhecimento introdutório de HTML5 e CSS3 (abordado na 
 
 Objetivo Principal: Apresentar o JavaScript como a camada de comportamento da Web, ensinando a manipular elementos HTML via DOM e reagir a eventos de clique.
 
-Estrutura de Arquivos
+Estrutura de Arquivos:
 
 .
 ├── README.md             # Este arquivo de documentação do repositório
