@@ -1,0 +1,82 @@
+/* Reset básico para alinhar margens */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Corpo da página: centraliza tudo e dá uma transição suave na cor de fundo */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f2f5; /* Cor padrão inicial */
+  transition: background-color 0.5s ease; /* Deixa a troca de cor suave */
+}
+
+/* O cartão central onde fica o conteúdo */
+.card {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Título */
+.card h1 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+/* Emoji gigante */
+#emoji {
+  font-size: 5rem;
+  margin-bottom: 15px;
+}
+
+/* Frase de status */
+#mensagem {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 30px;
+  min-height: 50px; /* Evita que o layout pule se o texto mudar de tamanho */
+}
+
+/* Área dos botões */
+.botoes {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Estilo dos botões */
+.botoes button {
+  background-color: #4f46e5; /* Roxo bonito */
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition:
+    background-color 0.2s,
+    transform 0.1s;
+}
+
+/* Efeito ao passar o mouse */
+.botoes button:hover {
+  background-color: #4338ca;
+  transform: translateY(-2px);
+}
+
+/* Efeito ao clicar */
+.botoes button:active {
+  transform: translateY(0);
+}
